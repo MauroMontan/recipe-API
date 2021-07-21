@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+deta
+python-dotenv
+python-jose[cryptography]
+passlib
+bcrypt
+oauth2
+aiofiles
+python-multipart
+pydantic
