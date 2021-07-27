@@ -26,7 +26,7 @@ def TaskModel(title, task, date, userKey) -> dict:
 
 # Recipie models
 
-def RecipieModel(recipie_name, author, cook_time, prepare_time, ingredients, directions,card_color, userKey) -> dict:
+def RecipieModel(recipie_name, author, cook_time, prepare_time, ingredients, directions,card_color,dish_picure, userKey) -> dict:
     Recipie = {
         "recipie_name": recipie_name,
         "author": author,
@@ -35,6 +35,7 @@ def RecipieModel(recipie_name, author, cook_time, prepare_time, ingredients, dir
         "ingredients": ingredients,
         "directions": directions,
         "card_color":card_color,
+        "picture_name":dish_picure,
         "userKey": userKey["key"],
     }
     return Recipie

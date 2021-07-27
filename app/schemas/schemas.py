@@ -18,6 +18,8 @@ class Recipie(BaseModel):
     ingredients: str
     directions: str
     card_color: str
+    picture_name: str
+
 
 
 class userSchema(BaseModel):
